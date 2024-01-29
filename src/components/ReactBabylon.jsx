@@ -84,7 +84,7 @@ export const BabylonJSComponent = ({capturedImageData}) => (
         />
         <SpinningBox
           name="left"
-          position={new Vector3(-2, 0, 0)}
+          position={new Vector3(0, 0, 0)}
         //   color={Color3.FromHexString('#EEB5EB')}
         //   hoveredColor={Color3.FromHexString('#C26DBC')}
           textureUrl={capturedImageData}
