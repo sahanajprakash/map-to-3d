@@ -3,7 +3,7 @@ import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-load
 import BabylonScene from "./ReactBabylon";
 import './MapComponent.css'
 mapboxgl.accessToken =
-  "pk.eyJ1Ijoic2FoYW5hanByYWthc2giLCJhIjoiY2xydjM1bmhrMGowcDJrcHFhMzB0endnMSJ9.CKOzoMnUyRzAajKOyqSlUQ";
+  "your_access_token";
 // console.log(process.env);
 export default function MapComponent() {
   const mapContainer = useRef(null);
